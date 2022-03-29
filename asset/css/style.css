@@ -12,7 +12,7 @@ body {
     background-color: #000;
 }
 .header {
-    height: 100px;
+    height: 200px;
 }
 .body {
     width: 100%;
@@ -59,8 +59,12 @@ body {
     overflow: hidden;
     
 }
+@font-face {
+    font-family: 'oswald';
+    src: url('../font/digital-7.regular.ttf');
+}
 .input {
-    font-family: monospace;
+    font-family: 'oswald';
     font-size: 40px;
 }
 .keyboard {
